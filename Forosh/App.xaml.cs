@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Forosh.MVVM.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,12 @@ namespace Forosh
     /// </summary>
     public partial class App : Application
     {
+        private void Application_Startup(object sender, StartupEventArgs e)
+        {
+            Login login = new Login();
+            login.ShowDialog();
+            MainForosh main = new MainForosh();
+            main.Show();
+        }
     }
 }

@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Forosh.ViewModels
+namespace Forosh.MVVM.ViewModels
 {
     /// <summary>
-    /// Interaction logic for Forosh.xaml
+    /// Interaction logic for Main.xaml
     /// </summary>
-    public partial class Forosh : Window
+    public partial class MainForosh : Window
     {
-        public Forosh()
+        public MainForosh()
         {
             InitializeComponent();
         }
