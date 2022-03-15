@@ -5,12 +5,12 @@
     </ResourceDictionary.MergedDictionaries>
     
     <Color x:Key="BaseColor" R="0" G="120" B="212" A="255"/>
-    <SolidColorBrush x:Key="BaseSolidBrosh" Color="{StaticResource BaseColor}"/>
-    <SolidColorBrush x:Key="PrimarySolidBrosh" Color="{StaticResource PrimaryColor}"/>
-    <SolidColorBrush x:Key="SecondrySolidBrosh" Color="{StaticResource SecondryColor}"/>
-    <SolidColorBrush x:Key="ContentSolidBrosh" Color="{StaticResource ContentColor}"/>
-    <SolidColorBrush x:Key="SecondryContentSolidBrosh" Color="{StaticResource SecondryContentColor}"/>
-    <SolidColorBrush x:Key="ToolSolidBrosh" Color="{StaticResource ToolColor}"/>
-    <SolidColorBrush x:Key="PrimaryToolSolidBrosh" Color="{StaticResource PrimaryToolColor}"/>
+    <SolidColorBrush x:Key="BaseSolidBrush" Color="{StaticResource BaseColor}"/>
+    <SolidColorBrush x:Key="PrimarySolidBrush" Color="{StaticResource PrimaryColor}"/>
+    <SolidColorBrush x:Key="SecondrySolidBrush" Color="{StaticResource SecondryColor}"/>
+    <SolidColorBrush x:Key="ContentSolidBrush" Color="{StaticResource ContentColor}"/>
+    <SolidColorBrush x:Key="SecondryContentSolidBrush" Color="{StaticResource SecondryContentColor}"/>
+    <SolidColorBrush x:Key="ToolSolidBrush" Color="{StaticResource ToolColor}"/>
+    <SolidColorBrush x:Key="PrimaryToolSolidBrush" Color="{StaticResource PrimaryToolColor}"/>
     
 </ResourceDictionary>

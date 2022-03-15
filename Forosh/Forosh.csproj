@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="MVVM\Models\" />
     <Folder Include="Core\" />
     <Folder Include="Font\" />
   </ItemGroup>

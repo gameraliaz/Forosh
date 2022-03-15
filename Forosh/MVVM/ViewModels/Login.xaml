@@ -9,9 +9,8 @@
         Height="550" Width="430"
         Style="{StaticResource MainWindow}"
         WindowStartupLocation="CenterScreen"
-        Title="ورود"
-       >
-    <Grid>
+        Title="ورود">
+    <StackPanel>
         
-    </Grid>
+    </StackPanel>
 </Window>

@@ -6,5 +6,5 @@
              xmlns:local="clr-namespace:Forosh.MVVM.Views"
              mc:Ignorable="d" 
              d:DesignHeight="60" d:DesignWidth="600">
-    <Border Background="{StaticResource PrimarySolidBrosh}" MouseDown="DragMoveMouseDown"/>
+    <Border Background="{StaticResource SecondryContentSolidBrush}" MouseDown="DragMoveMouseDown"/>
 </UserControl>
