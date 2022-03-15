@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="PrimaryColor" R="0" G="0" B="0" A="255"/>
+    <Color x:Key="SecondryColor" R="31" G="31" B="31" A="255"/>
+    <Color x:Key="ContentColor" R="51" G="51" B="51" A="255"/>
+    <Color x:Key="SecondryContentColor" R="51" G="51" B="51" A="255"/>
+    <Color x:Key="ToolColor" R="132" G="132" B="132" A="255"/>
+    <Color x:Key="PrimaryToolColor" R="150" G="150" B="150" A="255"/>
+    <ImageSource x:Key="LogoHeaderImageSource">pack://application:,,,/Image/logo.png</ImageSource>
+    
+
+</ResourceDictionary>

@@ -16,9 +16,9 @@ namespace Forosh
     {
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            Login login = new Login();
+            Login login = new();
             login.ShowDialog();
-            MainForosh main = new MainForosh();
+            MainForosh main = new();
             main.Show();
         }
     }

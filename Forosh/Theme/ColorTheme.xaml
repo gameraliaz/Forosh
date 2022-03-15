@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Theme/Colors/DarkColors.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <Color x:Key="BaseColor" R="0" G="120" B="212" A="255"/>
+    <SolidColorBrush x:Key="BaseSolidBrosh" Color="{StaticResource BaseColor}"/>
+    <SolidColorBrush x:Key="PrimarySolidBrosh" Color="{StaticResource PrimaryColor}"/>
+    <SolidColorBrush x:Key="SecondrySolidBrosh" Color="{StaticResource SecondryColor}"/>
+    <SolidColorBrush x:Key="ContentSolidBrosh" Color="{StaticResource ContentColor}"/>
+    <SolidColorBrush x:Key="SecondryContentSolidBrosh" Color="{StaticResource SecondryContentColor}"/>
+    <SolidColorBrush x:Key="ToolSolidBrosh" Color="{StaticResource ToolColor}"/>
+    <SolidColorBrush x:Key="PrimaryToolSolidBrosh" Color="{StaticResource PrimaryToolColor}"/>
+    
+</ResourceDictionary>

@@ -8,14 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Image\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="MVVM\Models\" />
-    <Folder Include="MVVM\Views\" />
     <Folder Include="Core\" />
     <Folder Include="Font\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\logo.png" />
   </ItemGroup>
 
   <ItemGroup>
