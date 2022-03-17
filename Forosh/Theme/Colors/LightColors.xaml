@@ -3,8 +3,12 @@
 
     <Color x:Key="PrimaryColor" R="255" G="255" B="255"/>
     <Color x:Key="SecondryColor" R="234" G="234" B="234"/>
+    <Color x:Key="Secondry2Color" R="224" G="224" B="224"/>
     <Color x:Key="ContentColor" R="244" G="244" B="244"/>
     <Color x:Key="SecondryContentColor" R="200" G="200" B="200"/>
     <Color x:Key="ToolColor" R="83" G="83" B="83"/>
     <Color x:Key="PrimaryToolColor" R="63" G="63" B="63"/>
+    <Color x:Key="ForeColor" R="10" G="10" B="10"/>
+    <Color x:Key="SuccesColor" R="0" G="200" B="81" A="255"/>
+    <ImageSource x:Key="LogoHeaderImageSource">pack://application:,,,/Image/logo.png</ImageSource>
 </ResourceDictionary>

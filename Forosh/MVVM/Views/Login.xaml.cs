@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Forosh.MVVM.ViewModels
+namespace Forosh.MVVM.Views
 {
     /// <summary>
-    /// Interaction logic for Main.xaml
+    /// Interaction logic for Login.xaml
     /// </summary>
-    public partial class MainForosh : Window
+    public partial class Login : UserControl
     {
-        public MainForosh()
+        public Login()
         {
             InitializeComponent();
         }

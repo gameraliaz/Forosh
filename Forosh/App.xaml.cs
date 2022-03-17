@@ -1,4 +1,4 @@
-﻿using Forosh.MVVM.ViewModels;
+﻿using Forosh.MVVM.Views;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -16,8 +16,6 @@ namespace Forosh
     {
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            Login login = new();
-            login.ShowDialog();
             MainForosh main = new();
             main.Show();
         }

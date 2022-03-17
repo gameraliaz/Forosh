@@ -28,11 +28,11 @@
                                 <!-- Tool -->
                                 <views:HeaderTool x:Name="Tool" Grid.Column="2" Height="34" Foreground="{StaticResource ToolSolidBrush}" />
                                 <!-- Title -->
-                                <TextBlock Grid.Column="1" Text="{TemplateBinding Title}" 
+                                <TextBlock Grid.Column="0" Grid.ColumnSpan="3" Text="{TemplateBinding Title}" 
                                            HorizontalAlignment="Center" 
                                            TextAlignment="Center" FontSize="20" 
                                            Height="30"
-                                           Foreground="{StaticResource PrimaryToolSolidBrush}"
+                                           Foreground="{StaticResource ForeSolidBrush}"
                                            FontFamily="B Koodak"
                                            Margin="2"/>
                                 <!-- Logo -->
@@ -41,8 +41,8 @@
                             </Grid>
 
                             <!-- ContentPresenter -->
-                            <Border Margin="0" Grid.Row="1" Background="{StaticResource SecondrySolidBrush}" >
-                                <ContentPresenter/>
+                            <Border Margin="0" Grid.Row="1" Background="{StaticResource PrimarySolidBrush}" >
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20"/>
                             </Border>
 
                             <!-- Fotter -->

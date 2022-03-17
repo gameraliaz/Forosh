@@ -14,6 +14,7 @@
   <ItemGroup>
     <Folder Include="Core\" />
     <Folder Include="Font\" />
+    <Folder Include="MVVM\ViewModels\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,6 +38,13 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Theme\UsernameTextBoxModern.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 
 </Project>

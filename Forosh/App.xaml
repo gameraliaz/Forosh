@@ -7,8 +7,9 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Theme/ColorTheme.xaml"/>
-                <ResourceDictionary Source="/Theme/ModernButton.xaml"/>
-                <ResourceDictionary Source="/Theme/WindowModern.xaml"/>
+                <ResourceDictionary Source="/Theme/MainWindowModern.xaml"/>
+                <ResourceDictionary Source="/Theme/ButtonModern.xaml"/>
+                <ResourceDictionary Source="/Theme/UsernameTextBoxModern.xaml"/>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
