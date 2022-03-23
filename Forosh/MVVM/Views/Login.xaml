@@ -8,9 +8,16 @@
              d:DesignHeight="450" d:DesignWidth="350">
     <Border CornerRadius="20" Height="450" Width="350" Background="{StaticResource Secondry2SolidBrush}">
         <StackPanel Orientation="Vertical">
-            <TextBlock FontFamily="B Koodak" FontSize="28" TextAlignment="Center" HorizontalAlignment="Center" Text="ورود" Margin="0 40 0 20" Foreground="{StaticResource ForeSolidBrush}"/>
-            
-                <TextBox Margin="30"
+            <TextBlock FontFamily="B Koodak" 
+                       FontSize="28" 
+                       TextAlignment="Center" 
+                       HorizontalAlignment="Center" 
+                       Text="ورود" Margin="0 40 0 20"
+                       Foreground="{StaticResource ForeSolidBrush}"
+                       />
+
+            <TextBox Margin="30"
+                     x:Name="UserBox"
                     Style="{StaticResource UsernameTextBoxModern}"
                     Background="Transparent" 
                     MaxWidth="250" 
@@ -20,16 +27,57 @@
                     FontSize="22" 
                     Foreground="{StaticResource ToolSolidBrush}"
                     HorizontalAlignment="Stretch"  >
-                </TextBox>
-                
-            
+            </TextBox>
+            <Grid Margin="30,10,30,30" MaxWidth="250">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="1"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <materialDesign:PackIcon Grid.Column="0" 
+                                    Kind="Password" VerticalAlignment="Center" 
+                                    Margin="5" 
+                                    Foreground="{StaticResource ToolSolidBrush}"
+                                                 />
+                    <PasswordBox 
+                        x:Name="PassBox"
+                          Grid.Column="1"
+                          Background="Transparent"
+                          HorizontalAlignment="Stretch"
+                          HorizontalContentAlignment="Center"
+                          FontSize="22"
+                          Foreground="{StaticResource ToolSolidBrush}"
+                          VerticalAlignment="Center"
+                          VerticalContentAlignment="Center"
+                          Margin="0,0,20,0"
+                        BorderThickness="0"
+                        BorderBrush="Transparent"
+                        />
+                </Grid>
+                <Border  Grid.Row="2" 
+                                     HorizontalAlignment="Stretch" 
+                                     Background="{StaticResource ToolSolidBrush}" 
+                                     VerticalAlignment="Stretch"/>
+
+            </Grid>
+
+
+
+
             <StackPanel Orientation="Vertical" >
-                
+
                 <StackPanel Margin="30" 
                     Orientation="Horizontal" 
                             HorizontalAlignment="Center">
-                    
-                    <Button Cursor="Hand" Margin="0,0,40,0" Width="80" Height="38"
+
+                    <Button
+                        x:Name="CancelBtn"
+                        Cursor="Hand" Margin="0,0,40,0" Width="80" Height="38"
                             Style="{StaticResource ModernBtn}"
                             Foreground="{StaticResource ForeSolidBrush}">
                         <StackPanel Orientation="Horizontal">
@@ -44,7 +92,9 @@
                         </StackPanel>
                     </Button>
 
-                    <Button Cursor="Hand" Margin="40,0,0,0" Width="80" Height="38"
+                    <Button
+                        x:Name="LoginBtn"
+                        Cursor="Hand" Margin="40,0,0,0" Width="80" Height="38"
                             Foreground="{StaticResource ForeSolidBrush}"
                             Style="{StaticResource ModernBtn}">
                         <StackPanel Orientation="Horizontal">
@@ -56,10 +106,10 @@
                                 FontSize="20" Text="ورود"/>
                         </StackPanel>
                     </Button>
-                    
+
                 </StackPanel>
-                
-                
+
+
             </StackPanel>
         </StackPanel>
     </Border>

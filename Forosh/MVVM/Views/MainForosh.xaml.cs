@@ -23,5 +23,6 @@ namespace Forosh.MVVM.Views
         {
             InitializeComponent();
         }
+
     }
 }
