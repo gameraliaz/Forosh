@@ -8,6 +8,7 @@
         Title="فروش" Height="700" Width="800" 
         Style="{StaticResource MainWindow}">
     <Grid>
-        <local:Login x:Name="Login"/>
+        <local:Login x:Name="login"/>
+        <local:MainW x:Name="MainWin"/>
     </Grid>
 </Window>

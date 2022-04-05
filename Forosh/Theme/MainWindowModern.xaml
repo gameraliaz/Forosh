@@ -42,7 +42,7 @@
 
                             <!-- ContentPresenter -->
                             <Border Margin="0" Grid.Row="1" Background="{StaticResource PrimarySolidBrush}" >
-                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20"/>
+                                <ContentPresenter/>
                             </Border>
 
                             <!-- Fotter -->

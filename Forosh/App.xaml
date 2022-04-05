@@ -11,6 +11,8 @@
                 <ResourceDictionary Source="/Theme/ButtonModern.xaml"/>
                 <ResourceDictionary Source="/Theme/UsernameTextBoxModern.xaml"/>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="/Theme/LMenuRadioButton.xaml"/>
+                <ResourceDictionary Source="/Theme/LMCheckBox.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

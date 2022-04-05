@@ -40,11 +40,4 @@
     </None>
   </ItemGroup>
 
-  <ItemGroup>
-    <Page Update="Theme\UsernameTextBoxModern.xaml">
-      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
-      <SubType>Designer</SubType>
-    </Page>
-  </ItemGroup>
-
 </Project>

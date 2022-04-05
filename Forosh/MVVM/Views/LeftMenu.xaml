@@ -1,0 +1,85 @@
+﻿<UserControl xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"  x:Class="Forosh.MVVM.Views.LeftMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Forosh.MVVM.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="300">
+    <Border Background="{StaticResource PrimarySolidBrush}">
+        <StackPanel Orientation="Vertical">
+            <CheckBox Style="{StaticResource LMCheckBox}" IsChecked="True" x:Name="CollapseMenu">
+                <CheckBox.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Visibility="Collapsed" Width="50" Height="50" FontSize="38" Text="Menu"  VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <materialDesign:PackIcon Width="50" Height="50" Kind="Menu" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </CheckBox.Content>
+            </CheckBox>
+            <RadioButton IsChecked="True" Style="{StaticResource LMenuRB}">
+                <RadioButton.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Visibility="Collapsed" Width="50" Height="50" FontSize="38"  Text="Menu" Foreground="{StaticResource ForeSolidBrush}" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <materialDesign:PackIcon Kind="Menu" Width="50" Height="50" Foreground="{StaticResource PrimaryToolSolidBrush}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton IsChecked="False" Style="{StaticResource LMenuRB}">
+                <RadioButton.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Visibility="Collapsed" Width="50" Height="50" FontSize="38"  Text="Menu" Foreground="{StaticResource ForeSolidBrush}" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <materialDesign:PackIcon Kind="Menu" Width="50" Height="50" Foreground="{StaticResource PrimaryToolSolidBrush}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton IsChecked="False" Style="{StaticResource LMenuRB}">
+                <RadioButton.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Visibility="Collapsed" Width="50" Height="50" FontSize="38"  Text="Menu" Foreground="{StaticResource ForeSolidBrush}" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <materialDesign:PackIcon Kind="Menu" Width="50" Height="50" Foreground="{StaticResource PrimaryToolSolidBrush}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton IsChecked="False" Style="{StaticResource LMenuRB}">
+                <RadioButton.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Visibility="Collapsed" Width="50" Height="50" FontSize="38"  Text="Menu" Foreground="{StaticResource ForeSolidBrush}" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <materialDesign:PackIcon Kind="Menu" Width="50" Height="50" Foreground="{StaticResource PrimaryToolSolidBrush}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton IsChecked="False" Style="{StaticResource LMenuRB}">
+                <RadioButton.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Visibility="Collapsed" Width="50" Height="50" FontSize="38"  Text="Menu" Foreground="{StaticResource ForeSolidBrush}" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <materialDesign:PackIcon Kind="Menu" Width="50" Height="50" Foreground="{StaticResource PrimaryToolSolidBrush}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton IsChecked="False" Style="{StaticResource LMenuRB}">
+                <RadioButton.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Visibility="Collapsed" Width="50" Height="50" FontSize="38"  Text="Menu" Foreground="{StaticResource ForeSolidBrush}" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <materialDesign:PackIcon Kind="Menu" Width="50" Height="50" Foreground="{StaticResource PrimaryToolSolidBrush}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton IsChecked="False" Style="{StaticResource LMenuRB}">
+                <RadioButton.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Visibility="Collapsed" Width="50" Height="50" FontSize="38"  Text="Menu" Foreground="{StaticResource ForeSolidBrush}" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <materialDesign:PackIcon Kind="Menu" Width="50" Height="50" Foreground="{StaticResource PrimaryToolSolidBrush}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton IsChecked="False" Style="{StaticResource LMenuRB}">
+                <RadioButton.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Visibility="Collapsed" Width="50" Height="50" FontSize="38"  Text="Menu" Foreground="{StaticResource ForeSolidBrush}" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <materialDesign:PackIcon Kind="Menu" Width="50" Height="50" Foreground="{StaticResource PrimaryToolSolidBrush}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </RadioButton.Content>
+            </RadioButton>
+        </StackPanel>
+    </Border>
+</UserControl>
